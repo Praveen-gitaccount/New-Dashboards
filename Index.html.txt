@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CM&D - Construction Management</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="left-title">Construction Management & Development Inc.</div>
+    <div class="right-header">
+      <div class="logo">CM&D</div>
+      <button class="contact-btn">Contact</button>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <div class="dashboard">
+      <iframe 
+        src="https://app.smartsheet.com/b/publish?EQBCT=419e6f3530c541ba8f26da27060530c7" 
+        width="100%" 
+        height="750" 
+        frameborder="0">
+      </iframe>
+    </div>
+    <div class="hero">
+      <div class="overlay">
+        <p>Domestic, Featured, Residential</p>
+        <h1>200 Madison Ave, NY</h1>
+        <button class="view-project">View Project</button>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <button class="prev">Prev</button>
+    <button class="next">Next</button>
+  </footer>
+
+  <div id="chat-container">
+    <div id="chat-messages"></div>
+    <input type="text" id="user-input" placeholder="Talk to me.." />
+    <button id="send-btn">Send</button>
+  </div>
+
+  <script src="chatbot.js"></script>
+</body>
+</html>
